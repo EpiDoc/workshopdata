@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title> Probably <rs type="textType" cert="medium">epitaph</rs>
+                <title> Probably epitaph
                 </title>
                 <author>Catherine Dobias-Lalou</author>
                 <editor>Inscriptions of Greek Cyrenaica</editor>
@@ -123,7 +123,7 @@
     <facsimile>
         <surface/>
     </facsimile>
-    <text>
+    <text xml:id="IGCyr000100">
         <body>
             <div type="bibliography">
                 <head>Bibliography</head>
