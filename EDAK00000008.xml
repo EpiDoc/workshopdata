@@ -1,0 +1,121 @@
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" 
+        type="application/xml" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>RECAM II, 415</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Epigraphische Datenbank zum antiken Kleinasien - Universität Hamburg</authority>
+            <idno type="localID">EDAK00000008</idno>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                                    This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license.
+                                </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support/>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote/>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName>Tavium</placeName>
+                     </origPlace>
+                  </origin>
+                  <provenance type="found">
+                     <placeName xml:lang="en">Büyüknefes</placeName>
+                     <placeName xml:lang="de">Büyüknefes</placeName>
+                     <location>
+                        <geo>39.858800 34.518100</geo>
+                     </location>
+                     <placeName xml:lang="en" type="territory">Tavium</placeName>
+                     <placeName xml:lang="de" type="territory">Tavium</placeName>
+                     <placeName xml:lang="en" type="region">Kerngalatien</placeName>
+                     <placeName xml:lang="de" type="region">Kerngalatien</placeName>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines</p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term xml:lang="de">Ehreninschrift</term>
+               <term xml:lang="en">Honorary Inscriptions</term>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>IDEA - International Digital Epigraphy Association</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2017-05-04T13:27:49.216Z"/>
+         <change when="2016-01-19T15:21:59.427Z"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:lang="de">Regional Epigraphic Catalogues of Asia Minor</bibl>
+               <bibl xml:lang="en">Regional Epigraphic Catalogues of Asia Minor</bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:lang="gr">
+            <ab>
+               <lb n="1"/>ON
+               <supplied reason="lost">—</supplied>
+               <lb n="2"/>
+               <supplied reason="lost">—</supplied>MONATA
+               <lb n="3"/>
+               <supplied reason="lost">—</supplied>ΟΣ<supplied reason="lost">—</supplied>Λ<supplied reason="lost">—</supplied> ὕπατον,
+               <lb n="4"/>
+              <w> <expan>
+                            <ex>π</ex>
+                            <abbr>ρεσβευτὴν</abbr>
+                        </expan>
+                    </w> <w>
+                        <supplied reason="lost">Σ</supplied>εβασ(τοῦ oder τῶν)</w>
+                    <lb n="5"/>
+              <w>ἀντιστράτηγον</w>
+                    <lb n="6"/>
+              <w>Συρίας</w> <w>τῆς</w> <w>Παλαισ<lb break="no" n="7"/>
+               τείνης</w>, <w>τὸν</w> <w>ἑαυτῶν</w>
+                    <lb n="8"/>
+               <w>εὐεργέτην</w>.</ab>
+         </div>
+         <div type="commentary">
+            <p>Ehreninschrift für einen namentlich unbek. Konsul und legatus Augusti pro praetore in Syria und Palästina (möglicherweise G(aius) Iulius G(ai) f(ilius) Fab(ius) Severus); gef. in Büyüknefes in einem Friedhof, südlich vom Dorf; 
+
+*RECAM II, 415 (Datierung, engl. Übersetzung); Linton Smith - Tod, LAAA 4 (1912) 38, Nr. 11; Mitchell, JRS 64 (1974) 36-37.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
